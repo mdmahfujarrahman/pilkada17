@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node  src/server.mjs",
+    "start": "node  src/server.js",
     "testing": "node  src/featureTest.mjs",
     "upload": "node  src/lib/drive/uploadFolder.mjs"
   },
