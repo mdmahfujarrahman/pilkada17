@@ -47,6 +47,7 @@ RUN if [ "$NODE_ENV" = "development" ]; \
     then npm install; \
     else npm install --only-production; \
     fi;
+
 COPY . ./src
 EXPOSE 3005
 CMD ["node", "src/server.js"]

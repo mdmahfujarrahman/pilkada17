@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node  src/server.js",
+    "start": "pwd && node src/server.j",
     "testing": "node  src/featureTest.mjs",
     "upload": "node  src/lib/drive/uploadFolder.mjs"
   },
