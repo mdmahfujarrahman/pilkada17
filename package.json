@@ -1,0 +1,23 @@
+{
+  "name": "pilkada17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node  src/server.mjs",
+    "testing": "node  src/featureTest.mjs",
+    "upload": "node  src/lib/drive/uploadFolder.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "dropbox": "^10.34.0",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "puppeteer": "^21.5.2",
+    "winston": "^3.11.0",
+    "xlsx": "^0.18.5"
+  }
+}

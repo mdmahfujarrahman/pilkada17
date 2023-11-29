@@ -1,0 +1,12 @@
+Wed Nov 29 2023 4:8:23 am [pilkada] error: Error in PILKADA ACEH: {
+  "message": "EEXIST: file already exists, mkdir './src/1-PILKADA ACEH'",
+  "stack": "    at Object.mkdirSync (node:fs:1380:26)\n    at exportData (file:///app/src/helper/exportData.mjs:7:12)\n    at handleElection (file:///app/src/handleElection.mjs:27:13)"
+}
+Wed Nov 29 2023 4:8:27 am [pilkada] error: Error in PILKADA KEPULAUAN BANGKA BELITUNG: {
+  "message": "Sheet names cannot exceed 31 chars",
+  "stack": "    at check_ws_name (/app/node_modules/xlsx/xlsx.js:16452:51)\n    at Object.book_append_sheet (/app/node_modules/xlsx/xlsx.js:24226:2)\n    at exportData (file:///app/src/helper/exportData.mjs:292:20)\n    at handleElection (file:///app/src/handleElection.mjs:27:13)"
+}
+Wed Nov 29 2023 4:8:33 am [pilkada] error: Error in PILKADA DKI JAKARTA (Putaran Kedua): {
+  "message": "Sheet names cannot exceed 31 chars",
+  "stack": "    at check_ws_name (/app/node_modules/xlsx/xlsx.js:16452:51)\n    at Object.book_append_sheet (/app/node_modules/xlsx/xlsx.js:24226:2)\n    at exportData (file:///app/src/helper/exportData.mjs:292:20)\n    at handleElection (file:///app/src/handleElection.mjs:27:13)"
+}
